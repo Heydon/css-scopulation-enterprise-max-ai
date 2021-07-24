@@ -6,7 +6,7 @@ A tiny ES module with a ridiculously self-aggrandizing name for emulating the _t
 
 ### Usage
 
-Import and execute `scopedCSS.js`:
+Import and execute `scopeCSS.js`:
 
 ```js
 import { scopeCSS } from './path/to/scopeCSS.min.js';
