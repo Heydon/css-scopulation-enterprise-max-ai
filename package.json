@@ -7,11 +7,11 @@
     }
   },
   "main": "./scopeCSS.min.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bring back the CSS scope property with a tiny esm module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "minify": "npx uglify-js scopeCSS.js -o scopeCSS.min.js"
+    "minify": "npx uglify-js scopeSheets.js -o scopeSheets.min.js"
   },
   "repository": {
     "type": "git",
