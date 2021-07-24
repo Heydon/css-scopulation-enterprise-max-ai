@@ -6,12 +6,18 @@ A tiny ES module with a ridiculously self-aggrandizing name for emulating the _t
 
 ### Usage
 
-Import and execute `scopeCSS.js`:
+Install **CSS Scopulation® Enterprise Max AI™**:
+
+```
+npm install --save css-scopulation-enterprise-max-ai
+```
+
+Import and execute `scopeSheets.min.js`:
 
 ```js
-import { scopeCSS } from './path/to/scopeCSS.min.js';
+import { scopeSheets } from 'css-scopulation-enterprise-max-ai';
 
-scopeCSS({ revert: true });
+scopeSheets({ revert: true });
 ```
 
 ## Why?? How??
@@ -87,12 +93,16 @@ Note that this will revert any styles applied directly to the elements in the sc
 
 ## Options
 
-These are passed to the `scopeCSS` function as an object (see [Usage](#usage)).
+These are passed to the `scopeSheets` function as an object (see [Usage](#usage)).
 
 * `placeholder`: _the keyword/token representing the scoping element that is replaced with the generated attribute selector_ (String) (default: `'§'`)
 * `revert`: _Whether to revert styles with `all: revert`_ (Boolean) (default: `false`) 
 * `context`: _Where the script looks for `<style scoped>`_ (HTMLElement) (default: `document`) 
 * `dataName`: _What to call the data attribute_ (String) (default: `'scoped'`)
+
+## If you want my advice
+
+If you want my advice, avoid running this on the client at all. Scope you styles during static compilation on the server, inside a JSDOM instance or something like that.
 
 ## Notes
 
