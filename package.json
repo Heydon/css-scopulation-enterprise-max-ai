@@ -1,0 +1,25 @@
+{
+  "name": "css-scopulation-enterprise-max-ai",
+  "type": "module",
+  "main": "./scopeCSS.js",
+  "version": "0.1.0",
+  "description": "Bring back the CSS scope property with a tiny esm module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "npx uglify-js scopeCSS.js -o scopeCSS.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heydon/css-scopulation-enterprise-max-ai.git"
+  },
+  "author": "Heydon Pickering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heydon/css-scopulation-enterprise-max-ai/issues"
+  },
+  "homepage": "https://github.com/Heydon/css-scopulation-enterprise-max-ai#readme",
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "uglify-js": "^3.14.0"
+  }
+}
