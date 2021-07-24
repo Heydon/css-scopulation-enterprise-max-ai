@@ -6,16 +6,10 @@ A tiny ES module with a ridiculously self-aggrandizing name for emulating the _t
 
 ### Usage
 
-Install **CSS Scopulation® Enterprise Max AI™**:
-
-```
-npm install --save css-scopulation-enterprise-max-ai
-```
-
 Import and execute `scopedCSS.js`:
 
 ```js
-import { scopeCSS } from 'scopeCSS';
+import { scopeCSS } from './path/to/scopeCSS.min.js';
 
 scopeCSS({ revert: true });
 ```
