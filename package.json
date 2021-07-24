@@ -1,7 +1,12 @@
 {
   "name": "css-scopulation-enterprise-max-ai",
   "type": "module",
-  "main": "./scopeCSS.js",
+  "exports": {
+    ".": {
+      "default": "./scopeCSS.min.js"
+    }
+  },
+  "main": "./scopeCSS.min.js",
   "version": "0.1.0",
   "description": "Bring back the CSS scope property with a tiny esm module",
   "scripts": {

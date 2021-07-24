@@ -1,4 +1,4 @@
-export function scopeSheets({ placeholder = ':scope', revert = true, context = document, prefix = 'scope'} = {}) {
+export function scopeSheets({ placeholder = 'this', revert = false, context = document, prefix = 'scope'} = {}) {
   const sheets = [...context.querySelectorAll('[scoped]')];
   sheets.forEach((sheet, i) => {
     sheet.parentNode.dataset[prefix] = i;
