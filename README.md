@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-A tiny ES module with a ridiculously self-aggrandizing name for emulating the _tasty_ but now unsupported `scoped` attribute for scoping embedded stylesheets to a local parent element.
+A tiny ES module (<0.5K) with a ridiculously self-aggrandizing name for emulating the _tasty_ but now unsupported `scoped` attribute for scoping embedded stylesheets to a local parent element.
 
 ### Usage
 
@@ -68,7 +68,7 @@ The only difference from that first example, as you may have noticed, is the `§
 <p>I am not even red, like, at all.</p>
 ```
 
-The `§` placeholder can be literally anything you like in the [options](#options) but it has to be unique or the replacement part of the script will match unwanted parts of the styles and it will all go fucky.
+The `§` placeholder can be literally anything you like in the [options](#options) but it has to be something that won’t otherwise appear in your CSS or the replacement part of the script will match unwanted parts of the styles and it will all go fucky.
 
 ## Bleeding and seeping PREVENTED
 
@@ -102,9 +102,10 @@ These are passed to the `scopeSheets` function as an object (see [Usage](#usage)
 
 ## If you want my advice
 
-If you want my advice, avoid running this on the client at all. Scope you styles during static compilation on the server, inside a JSDOM instance or something like that.
+If you want my advice, avoid running this on the client at all. Scope your styles during static compilation on the server, inside a JSDOM instance or something like that.
 
 ## Notes
 
 1. I have been advised to point out that this ES module does not constitute a true form of Artificial Intelligence in any way and that my inclusion of the suffix “AI” should be treated with the same suspicion and contempt as any other product that conflates “artificial intelligence” with some kind of trivial code execution.
 2. If you take the 'S' away from 'Scopulation' you get _copulation_, which is nice.
+3. The 'S' in 'Scopulation' is silent.
